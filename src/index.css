@@ -12,3 +12,39 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.page-template {
+  position: relative;
+}
+
+.page-container {
+  position: absolute;
+  top: 200px;
+  text-align: center;
+  height: 70vh;
+  left: 0;
+  right: 0;
+}
+
+/* simple - enter transition 300ms, exit 150ms */
+
+.fade-appear
+.fade-enter {
+  opacity: 0;
+  z-index: 1;
+}
+
+.fade-appear-active
+.fade-enter.fade-enter-active {
+  opacity: 1;
+  transition: opacity 3000ms linear 1500ms;
+}
+
+.fade-exit {
+  opacity: 1;
+}
+
+.fade-exit.fade-exit-active {
+  opacity: 0;
+  transition: opacity 1500ms linear;
+}
