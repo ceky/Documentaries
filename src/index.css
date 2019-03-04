@@ -13,19 +13,6 @@ code {
     monospace;
 }
 
-.page-template {
-  position: relative;
-}
-
-.page-container {
-  position: absolute;
-  top: 200px;
-  text-align: center;
-  height: 70vh;
-  left: 0;
-  right: 0;
-}
-
 /* simple - enter transition 300ms, exit 150ms */
 
 .fade-appear

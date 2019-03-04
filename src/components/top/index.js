@@ -1,7 +1,8 @@
 import React from 'react';
+import './index.css';
 
 const Top = () => (
-    <div style={{backgroundColor: 'green', height: '100vh', position: 'absolute'}}>
+    <div className="top-container">
       Top documentaries
     </div>
 );

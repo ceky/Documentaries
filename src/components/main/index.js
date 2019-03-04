@@ -1,11 +1,24 @@
 import React, { Component } from 'react';
-import './main.css';
+import './index.css';
+import movies from './../../movies';
 
 class App extends Component {
+  state = {
+    movies: []
+  }
+
+  componentDidMount() {
+    this.setState({ movies });
+  }
+
   render() {
     return (
-      <div style={{backgroundColor: 'red', height: '100vh', position: 'absolute'}}>
+      <div className="main-container">
         Main
+
+        <ul>
+         { this.state.movies.map(movie => <li key={movie.title}>{movie.title}</li>)}
+        </ul>
       </div>
     );
   }

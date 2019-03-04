@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
+import './index.css';
 
 class About extends Component {
   render() {
     return (
-      <div style={{backgroundColor: 'blue', height: '100vh', position: 'absolute'}}>
+      <div className="about-container">
         About the project
       </div>
     );
