@@ -1,0 +1,9 @@
+.page-template {
+  position: relative;
+}
+  
+.page-container {
+  position: relative;
+  text-align: center;
+  height: calc(100vh - 2rem);
+}

@@ -3,8 +3,8 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import './index.css';
 import AppTemplate from './components/template';
-import App from './components/main';
-import About from './components/about';
+import Intro from './components/intro';
+import Movies from './components/movies';
 import Top from './components/top';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 
@@ -18,11 +18,11 @@ ReactDOM.render(
               <Route
                 path="/"
                 exact={true}
-                component={App}
+                component={Intro}
               />
               <Route
-                path="/about"
-                component={About}
+                path="/movies"
+                component={Movies}
               />
               <Route
                 path="/top"

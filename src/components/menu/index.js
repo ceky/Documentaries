@@ -1,23 +1,18 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom'
+import { NavLink } from 'react-router-dom';
+import './index.css';
 
 const Menu = () => (
-  <div>
-    <ul>
+  <header className="menu-container">
+    <ul className="menu-list">
       <li>
-        <NavLink to="/">Home</NavLink>
-      </li>
-      <li>
-        <NavLink to="/about">About</NavLink>
+        <NavLink to="/movies">Movies</NavLink>
       </li>
       <li>
         <NavLink to="/top">Top</NavLink>
       </li>
     </ul>
-
-    <hr />
-
-  </div>
+  </header>
 );
   
 export default Menu;  

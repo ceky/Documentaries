@@ -1,3 +1,14 @@
+:root {
+  --base-font-size: calc( 16px + (24 - 16) * (100vw - 400px) / (800 - 400) );
+  --bigger-font-size: 1.2em;
+  --biggest-font-size: 1.2em;
+  --smaller-font-size: 0.8em;
+}
+
+html {
+  font-size: var(--base-font-size);
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -6,6 +17,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #020202;
 }
 
 code {
@@ -34,4 +46,10 @@ code {
 .fade-exit.fade-exit-active {
   opacity: 0;
   transition: opacity 1500ms linear;
+}
+
+@media screen and (min-width: 1200px) {
+  :root {
+      --base-font-size: calc(( 16px + (24 - 16) * (100vw - 400px) / (800 - 400) ) * 0.7);
+  }
 }

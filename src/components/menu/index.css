@@ -1,0 +1,9 @@
+.menu-container {
+  height: 2rem;
+}
+
+.menu-list {
+  list-style-type: none;
+  margin: 0;
+  color: white;
+}

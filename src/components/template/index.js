@@ -5,10 +5,8 @@ import './index.css';
 
 const AppTemplate = ({children}) => (
   <div className="page-template">
-    <div>Header</div>
     <Menu />
-    <div className="page-container">{children}</div>
-    <div>Footer</div>
+    <main className="page-container">{children}</main>
   </div>
 );
 
