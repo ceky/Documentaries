@@ -25,7 +25,10 @@ code {
     monospace;
 }
 
-/* simple - enter transition 300ms, exit 150ms */
+h1 {
+  font-size: 1.3rem;
+}
+
 
 .fade-appear
 .fade-enter {
@@ -36,7 +39,7 @@ code {
 .fade-appear-active
 .fade-enter.fade-enter-active {
   opacity: 1;
-  transition: opacity 3000ms linear 1500ms;
+  transition: opacity 2000ms linear 1000ms;
 }
 
 .fade-exit {
@@ -45,7 +48,7 @@ code {
 
 .fade-exit.fade-exit-active {
   opacity: 0;
-  transition: opacity 1500ms linear;
+  transition: opacity 1000ms linear;
 }
 
 @media screen and (min-width: 1200px) {

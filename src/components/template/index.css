@@ -5,5 +5,5 @@
 .page-container {
   position: relative;
   text-align: center;
-  height: calc(100vh - 2rem);
+  height: calc(100vh - 3rem);
 }

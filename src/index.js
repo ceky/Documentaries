@@ -13,7 +13,7 @@ ReactDOM.render(
     <AppTemplate>
       <Route render={({location}) => (
         <TransitionGroup component={null}>
-          <CSSTransition key={location.key} timeout={3000} classNames="fade">
+          <CSSTransition key={location.key} timeout={2000} classNames="fade">
             <Switch location={location}>
               <Route
                 path="/"
