@@ -6,10 +6,10 @@ const Menu = () => (
   <header className="menu-container">
     <ul className="menu-list">
       <li>
-        <NavLink to="/movies">Movies</NavLink>
+        <NavLink to="/movies" className="menu-item">Movies</NavLink>
       </li>
       <li>
-        <NavLink to="/top">Top</NavLink>
+        <NavLink to="/top" className="menu-item">Top</NavLink>
       </li>
     </ul>
   </header>
