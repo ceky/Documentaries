@@ -12,7 +12,7 @@ img {
 
 .main-text-container {
   position: absolute;
-  top: 1rem;
+  top: 1.5rem;
   width: 100%;
 }
 
@@ -25,7 +25,7 @@ h1 {
 .explore-button {
   transform: translateX(-50%);
   left: 50%;
-  margin-top: 1rem;
+  margin-top: 2rem;
   -webkit-appearance: button;
   cursor: pointer;
   position: relative;

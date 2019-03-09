@@ -18,3 +18,8 @@ https://www.youtube.com/watch?v=NUQkajBdnmQ
 
 - background image
 https://unsplash.com/photos/jLRIsfkWRGo
+
+- button inspiration
+https://tympanus.net/Development/ButtonStylesInspiration/
+https://tympanus.net/Development/LineMenuStyles/
+
