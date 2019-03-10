@@ -3,4 +3,9 @@
   min-height: 100%;
   width: 100%;
   position: absolute;
+  padding-top: 1.5rem;
+}
+
+.top-list {
+  /*font-family: Arial, 'Helvetica Neue';*/
 }

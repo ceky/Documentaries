@@ -4,8 +4,10 @@ import './index.css';
 const Top = () => (
     <div className="top-container">
 
+    <h1></h1>
+
     <h1>Top 10 documentaries</h1>
-    <ul>
+    <ul className="top-list">
       <li>Blackfish (2013)</li>
       <li>Earthlings (2005)</li>
       <li>Before the Flood (2016)</li>
@@ -19,7 +21,7 @@ const Top = () => (
     </ul>
     
     <h1>Favorite Documentary Series</h1>
-    <ul>
+    <ul className="top-list">
       <li>Human Planet (2011)</li>
       <li>Planet Earth (2006)</li>
       <li>Cosmos</li>
