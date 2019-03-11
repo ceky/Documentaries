@@ -3,6 +3,12 @@
   --bigger-font-size: 1.2em;
   --biggest-font-size: 1.2em;
   --smaller-font-size: 0.8em;
+
+  --pagebg: #0c0c0c;
+  --pageink: #ffffff;
+  --highlight: #d94f5c;
+  --linkink: #8fc9d2;
+  --palebg: #171d3e;
 }
 
 html {
@@ -17,7 +23,7 @@ body {
   letter-spacing: 3px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #020202;
+  background-color: var(--pagebg);
 }
 
 button {
