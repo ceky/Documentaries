@@ -1,10 +1,9 @@
 :root {
-  --base-font-size: calc( 16px + (24 - 16) * (100vw - 400px) / (800 - 400) );
   --bigger-font-size: 1.2em;
   --biggest-font-size: 1.2em;
   --smaller-font-size: 0.8em;
 
-  --pagebg: #0c0c0c;
+  /*--pagebg: #0c0c0c;*/
   --pageink: #ffffff;
   --highlight: #d94f5c;
   --linkink: #8fc9d2;
@@ -12,7 +11,31 @@
 }
 
 html {
-  font-size: var(--base-font-size);
+  font-size: 16px;
+}
+
+@media (min-width: 30em) {
+  html {
+    font-size: 17px;
+  }
+}
+
+@media (min-width: 50em) {
+  html {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 70em) {
+  html {
+    font-size: 19px;
+  }
+}
+
+@media (min-width: 90em) {
+  html {
+    font-size: 20px;
+  }
 }
 
 body {
