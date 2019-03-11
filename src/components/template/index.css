@@ -1,6 +1,5 @@
 .page-template {
   position: relative;
-  background-color: var(--pagebg);
   color: var(--pageink);
 }
   

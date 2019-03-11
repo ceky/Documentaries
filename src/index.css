@@ -23,7 +23,7 @@ body {
   letter-spacing: 3px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: var(--pagebg);
+  background: url('/assets/bg2.png');
 }
 
 button {

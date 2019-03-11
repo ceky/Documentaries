@@ -46,6 +46,10 @@
   color: var(--pageink);
 }
 
+.menu-item:hover {
+  color: var(--pageink);
+}
+
 .menu-item.active::before {
   transform: scale3d(1, 1, 1);
 }
