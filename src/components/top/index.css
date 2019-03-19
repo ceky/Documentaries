@@ -7,6 +7,24 @@
 
 .top-header-container {
   padding: 1rem;
-  background-color: var(--highlight);;
+  background-color: var(--highlight);
   border-bottom-right-radius: 1.5rem;
+  background-image: radial-gradient(circle, var(--highlightlight), var(--highlight));
+  box-shadow: 4px 8px 16px #000000;
+}
+
+.top-title {
+  text-transform: uppercase;
+}
+
+.top-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.top-list li {
+  padding: 1rem;
+  margin: 1rem;
+  background-color: darkgoldenrod;
+  box-shadow: 1px 1px 5px #000000 inset;
 }
