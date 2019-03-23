@@ -1,7 +1,6 @@
 .menu-container {
   height: 2.5rem;
   border-bottom: 1px var(--linkink) solid;
-
 }
 
 .menu-list {
@@ -24,13 +23,13 @@
   margin-top: 0.8rem;
   text-align: center;
   text-transform: uppercase;
-  color: var(--linkink);
+  color: var(--pageink);
   -webkit-transition: background 0.3s, color 0.3s;
   transition: background 0.3s, color 0.3s;
 }
 
 .menu-item::before {
-  content: '';
+  content: "";
   position: absolute;
   bottom: -1px;
   left: 0;
@@ -43,13 +42,13 @@
   transform: scale3d(0, 5, 1);
 }
 .menu-item.active {
-  color: var(--pageink);
+  color: var(--linkink);
 }
 
 .menu-item:hover {
-  color: var(--pageink);
+  color: var(--linkink);
 }
 
-.menu-item.active::before {
+.menu-item:hover::before {
   transform: scale3d(1, 1, 1);
 }
