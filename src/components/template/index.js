@@ -1,9 +1,9 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import Menu from '../menu';
-import './index.css';
+import React from "react";
+import PropTypes from "prop-types";
+import Menu from "../menu";
+import "./index.css";
 
-const AppTemplate = ({children}) => (
+const AppTemplate = ({ children }) => (
   <div className="page-template">
     <Menu />
     <main className="page-container">{children}</main>
@@ -11,7 +11,7 @@ const AppTemplate = ({children}) => (
 );
 
 AppTemplate.propTypes = {
-  children: PropTypes.node,
+  children: PropTypes.node
 };
 
 export default AppTemplate;

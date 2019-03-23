@@ -6,10 +6,13 @@
 }
 
 .top-header-container {
-  padding: 1rem;
-  background-color: var(--highlight);
+  padding: 0.7rem;
   border-bottom-right-radius: 1.5rem;
-  background-image: radial-gradient(circle, var(--highlightlight), var(--highlight));
+  background-image: radial-gradient(
+    circle,
+    var(--highlightlight),
+    var(--highlight)
+  );
   box-shadow: 4px 8px 16px #000000;
 }
 
@@ -25,6 +28,7 @@
 .top-list li {
   padding: 1rem;
   margin: 1rem;
-  background-color: darkgoldenrod;
-  box-shadow: 1px 1px 5px #000000 inset;
+  background-color: var(--palebg);
+  box-shadow: 0px 1px 1px #000000 inset;
+  color: white;
 }

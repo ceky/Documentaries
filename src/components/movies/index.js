@@ -1,12 +1,12 @@
-import React, { Component } from 'react';
-import './index.css';
-import movies from './../../movies';
-import Movie from './movie';
+import React, { Component } from "react";
+import "./index.css";
+import movies from "./../../movies";
+import Movie from "./movie";
 
 class Movies extends Component {
   state = {
     movies: []
-  }
+  };
 
   componentDidMount() {
     this.setState({ movies });
@@ -16,15 +16,15 @@ class Movies extends Component {
     return (
       <div className="movies-container">
         <ul>
-          { this.state.movies.map(movie => 
+          {this.state.movies.map(movie => (
             <li key={movie.title}>
-              <Movie 
+              <Movie
                 title={movie.title}
                 rating={movie.rating}
-                description={movie.description}>
-              </Movie>
+                description={movie.description}
+              />
             </li>
-          )}
+          ))}
         </ul>
       </div>
     );
