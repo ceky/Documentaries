@@ -1,6 +1,7 @@
 .menu-container {
   height: 2.5rem;
   border-bottom: 1px var(--linkink) solid;
+  background-color: var(--menubg);
 }
 
 .menu-list {
@@ -20,7 +21,7 @@
   position: relative;
   display: block;
   margin: 0.1rem 1.5rem;
-  margin-top: 0.8rem;
+  margin-top: 0.5rem;
   text-align: center;
   text-transform: uppercase;
   color: var(--pageink);
@@ -41,14 +42,11 @@
   transform-origin: 0% 50%;
   transform: scale3d(0, 5, 1);
 }
-.menu-item.active {
-  color: var(--linkink);
-}
 
 .menu-item:hover {
   color: var(--linkink);
 }
 
-.menu-item:hover::before {
+.menu-item.active::before {
   transform: scale3d(1, 1, 1);
 }

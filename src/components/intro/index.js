@@ -12,7 +12,7 @@ class Intro extends Component {
       <div className="intro-container">
         <img className="intro-image" src="assets/bg.jpg" alt="background" />
         <div className="main-text-container">
-          <h1>
+          <h1 className="main-text">
             I set myself on a journey of watching 100 documentaries in 2019
           </h1>
           <button className="explore-button" onClick={this.onClickExplore}>

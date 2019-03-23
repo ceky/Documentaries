@@ -17,8 +17,8 @@
   width: 100%;
 }
 
-h1 {
-  color: var(--pageink);
+.main-text {
+  color: var(--pageinksoft);
   width: calc(100% - 2rem);
   margin: 0 1rem;
 }

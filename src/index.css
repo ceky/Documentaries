@@ -3,13 +3,14 @@
   --biggest-font-size: 1.2em;
   --smaller-font-size: 0.8em;
 
-  /*--pagebg: #0c0c0c;*/
   --pageink: #ffffff;
+  --pageinksoft: #bdbdca;
   --highlight: #841030;
   --highlightlight: #b50d3b;
   --linkink: #8fc9d2;
-  --bg: #1a1555;
+  --pagebg: #1a1555;
   --palebg: #3b3567;
+  --menubg: #2f315c;
 }
 
 html {
@@ -48,7 +49,7 @@ body {
   letter-spacing: 3px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: var(--bg);
+  background-color: var(--pagebg);
 }
 
 button {
@@ -76,12 +77,4 @@ h1 {
 .fade-exit.fade-exit-active {
   opacity: 0;
   transition: opacity 300ms linear;
-}
-
-@media screen and (min-width: 1200px) {
-  :root {
-    --base-font-size: calc(
-      (16px + (24 - 16) * (100vw - 400px) / (800 - 400)) * 0.7
-    );
-  }
 }

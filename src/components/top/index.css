@@ -6,29 +6,58 @@
 }
 
 .top-header-container {
-  padding: 0.7rem;
-  border-bottom-right-radius: 1.5rem;
+  padding: 0.3rem;
   background-image: radial-gradient(
     circle,
     var(--highlightlight),
     var(--highlight)
   );
-  box-shadow: 4px 8px 16px #000000;
+  box-shadow: 0px 1px 4px #000000;
 }
 
 .top-title {
   text-transform: uppercase;
+  margin: 0;
 }
 
 .top-list {
   list-style-type: none;
   padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .top-list li {
   padding: 1rem;
   margin: 1rem;
   background-color: var(--palebg);
-  box-shadow: 0px 1px 1px #000000 inset;
   color: var(--pageink);
+  flex: 1 0;
+  position: relative;
+  transition: all 0.3s;
+}
+
+.top-list li:hover {
+  transform: translateY(-4px);
+}
+
+.top-movie-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.top-movie-image {
+  height: 200px;
+}
+
+.top-movie-title {
+}
+
+.top-movie-year {
+  color: var(--pageinksoft);
+  font-size: 0.8rem;
 }
