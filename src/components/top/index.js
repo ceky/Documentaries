@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component } from "react";
 import "./index.css";
 
 const Top = () => (
@@ -164,10 +164,24 @@ const Top = () => (
 
 export default Top;
 
-const TopMovie = ({ year, source, children }) => (
-  <div className="top-movie-container">
-    <div className="top-movie-title">{children}</div>
-    <div className="top-movie-year">- {year} -</div>
-    <img className="top-movie-image" src={source} alt="movie" />
-  </div>
-);
+class TopMovie extends Component {
+  onClickMovie() {
+    const { url } = this.props;
+    window.open(url, "_blank");
+  }
+
+  render() {
+    const { source, year, children } = this.props;
+
+    return (
+      <div
+        className="top-movie-container"
+        onClick={this.onClickMovie.bind(this)}
+      >
+        <img className="top-movie-image" src={source} alt="movie" />
+        <div className="top-movie-title">{children}</div>
+        <div className="top-movie-year">- {year} -</div>
+      </div>
+    );
+  }
+}

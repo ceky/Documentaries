@@ -12,9 +12,22 @@ class Intro extends Component {
       <div className="intro-container">
         <img className="intro-image" src="assets/bg.jpg" alt="background" />
         <div className="main-text-container">
-          <h1 className="main-text">
-            I set myself on a journey of watching 100 documentaries in 2019
-          </h1>
+          <div className="main-text">
+            <h2>
+              I've always loved documentaries. I remember as a kid enjoying
+              Discovery and Animal Planet. Later in life I discovered a site
+              called topdocumentaryfilms.com which became my main source of
+              fulfilling my curiosity. And now with Netflix, HBO GO and others,
+              all you need is time.
+            </h2>
+            <h2>
+              As my watchlist on IMDB kept growing bigger and bigger I set
+              myself on a journey of watching 100 documentaries in 2019. Also
+              since there is no such thing as a stupid project. Here's mine of
+              tracking the ones that I've seen and ejoyed.
+            </h2>
+          </div>
+
           <button className="explore-button" onClick={this.onClickExplore}>
             Explore
           </button>
