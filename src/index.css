@@ -41,6 +41,11 @@ html {
   }
 }
 
+@font-face {
+  font-family: "marvinvisions-bold";
+  src: url("/MarvinVisions-Bold.woff") format("woff");
+}
+
 body {
   margin: 0;
   padding: 0;

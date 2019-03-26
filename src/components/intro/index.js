@@ -23,8 +23,23 @@ class Intro extends Component {
             <h2>
               As my watchlist on IMDB kept growing bigger and bigger I set
               myself on a journey of watching 100 documentaries in 2019. Also
-              since there is no such thing as a stupid project. Here's mine of
-              tracking the ones that I've seen and ejoyed.
+              since there is{" "}
+              <a
+                className="intro-link"
+                href="https://www.youtube.com/watch?v=c0bsKc4tiuY"
+                target="_blank"
+              >
+                no such thing
+              </a>{" "}
+              as a{" "}
+              <a
+                className="intro-link"
+                href="https://www.youtube.com/watch?v=q1qSxmfMIcI"
+                target="_blank"
+              >
+                stupid project
+              </a>
+              . Here's mine of tracking the ones that I've seen and ejoyed.
             </h2>
           </div>
 
